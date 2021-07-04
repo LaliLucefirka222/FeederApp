@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.feederapp.FragmentOp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+
+            <Button
+                android:id="@+id/buttonPn"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="п"
+                android:textSize="14sp"
+                app:cornerRadius="@android:dimen/thumbnail_width" />
+
+            <Button
+                android:id="@+id/buttonVt"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="в"
+                android:textSize="14sp"
+                app:cornerRadius="@android:dimen/thumbnail_width" />
+
+            <Button
+                android:id="@+id/buttonSr"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="с"
+                android:textSize="14sp"
+                app:cornerRadius="@android:dimen/thumbnail_width" />
+
+            <Button
+                android:id="@+id/buttonCh"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="ч"
+                android:textSize="14sp"
+                app:cornerRadius="@android:dimen/thumbnail_width" />
+
+            <Button
+                android:id="@+id/buttonPt"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="п"
+                android:textSize="14sp"
+                app:cornerRadius="@android:dimen/thumbnail_width" />
+
+            <Button
+                android:id="@+id/buttonSb"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:text="с"
+                android:textSize="14sp"
+                app:cornerRadius="@android:dimen/thumbnail_width" />
+
+            <Button
+                android:id="@+id/buttonVs"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="в"
+                android:textSize="14sp"
+                app:cornerRadius="@android:dimen/thumbnail_width" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Описание" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Удалить" />
+    </LinearLayout>
+
+
+</FrameLayout>
